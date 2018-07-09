@@ -1,8 +1,8 @@
 source 'https://rubygems.org'
-ruby '2.4.2'
+ruby '2.5.1'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '~> 5.1'
+gem 'rails', '~> 5.2.0'
 # Use Puma as the app server
 gem 'puma', '~> 3.0'
 # Use SCSS for stylesheets
@@ -13,7 +13,7 @@ gem 'uglifier', '>= 1.3.0'
 # gem 'therubyracer', platforms: :ruby
 
 # Use jquery as the JavaScript library
-gem 'jquery-rails'
+gem 'jquery-rails', '~> 4.3.0'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
@@ -41,8 +41,8 @@ group :production do
 end
 
 group :test do
-  gem 'capybara'
-  gem 'selenium-webdriver'
+  gem 'capybara', '~> 3.3.0'
+  gem 'selenium-webdriver', '~> 3.13.0'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
